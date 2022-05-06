@@ -10,13 +10,15 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="header__inner">
-        <div class="header__box">
-          <a href="./index.html">
+      <div class="header__inner">      
+          <button class="header__hamburger-btn">
+            <img class="header__hamburger-img" src="./img/hamburger.png" alt="hamburger" width="19" height="16">
+          </button>
+          <a class="header__link" href="./index.html">
             <img src="./img/header-logo.svg" alt="header-logo" width="107" height="28">
           </a>
           <nav class="navbar">
-            <ul class="navbar __list">
+            <ul class="navbar__list">
               <li class="navbar__item">
                 <a class="navbar__link" href="#">About</a>
               </li>
@@ -27,11 +29,29 @@
                 <a class="navbar__link" href="#">Careers</a>
               </li>
             </ul>
-          </nav>
-        </div>
-        <button class="button">Get Scootin</button>
+            <button class="button">Get Scootin</button>
+          </nav>     
       </div>
     </div>
   </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <h2 class="hero__title">Scooter sharing made simple</h2>
+        <div class="hero__line  hero__line-box">
+          <img class="hero__line hero-img" src="./img/line.png" alt="line" width="205" height="15">
+          <div class="hero__box">
+            <p class="hero__text">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use
+            our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
+            <button class="button">Get Scootin</button>
+          </div>
+          <img class="hero__strelka" src="./img/strelka.png" alt="strelka">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>

@@ -1,6 +1,44 @@
+.header {
+  padding: 22px 0;
+}
+
 .header__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.header__hamburger-btn {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  display: none;
+}
+
+@media only screen and(max-width: 640px) {
+  .header {
+    position: relative;
+  }
+  
+  .header__hamburger-btn {
+      display: block;
+    }
+
+    .header__link {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .header--open .header__hamburger-btn {
+      background-image: url(../img/exit.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 19px;
+      height: 16px;
+    }
+
+    .header--open  .header__hamburger-img {
+      display: none;
+    }
+}

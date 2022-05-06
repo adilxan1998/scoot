@@ -1,3 +1,11 @@
+.navbar {
+  width: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 58px;
+}
+
 .navbar__list {
   width: 249px;
   margin: 0;
@@ -14,4 +22,37 @@
     font-size: 15px;
     line-height: 25px;
     color: #939CAA;
+}
+
+@media only screen and (max-width: 640px) {
+  .navbar {
+    display: none;
+  }
+  
+  .navbar__item {
+    margin-bottom: 24px;
+  }
+
+  .header--open  .navbar {
+    position: absolute; 
+    z-index: 1;
+    width: 70%;
+    height: 603px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    top: 100%;
+    background-color: #333A44;
+    padding-left: 32px;
+    left: 0;
+  }
+
+  .header--open  .navbar__list {
+    display: block;
+    margin-top: 64px;
+    margin-bottom: 339px;
+    left: 0;
+  }
+
+  
 }
