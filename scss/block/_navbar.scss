@@ -24,6 +24,10 @@
     color: #939CAA;
 }
 
+.navbar__link:active {
+  color: #FCB72B;
+}
+
 @media only screen and (max-width: 640px) {
   .navbar {
     display: none;
