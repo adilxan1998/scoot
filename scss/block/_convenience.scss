@@ -48,12 +48,6 @@
   color: #939CAA;
 }
 
-.convenience__img {
-  background-image: url(../img/right.png);
-  background-repeat: no-repeat;
-  background-position: calc(50%) 0;
-}
-
 @media only screen and(max-width: 945px) {
   .convenience {
     margin-top: 145px;
@@ -70,7 +64,7 @@
   }
 
   .convenience__item-left {
-    display: block;
+    flex-direction: column;
     text-align: center;
   }
 
@@ -101,5 +95,10 @@
   .convenience__img {
     max-width: 311px;
     max-height: 311px;  
+  }
+
+  .convenience__img-left {
+    max-width: 311px;
+    max-height: 311px;
   }
 }

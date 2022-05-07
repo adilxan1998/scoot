@@ -3,7 +3,7 @@
   height: auto;
   background-image: url(../img/hero-bi.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding: 153px 0;
 }
 
@@ -119,5 +119,6 @@
   
   .hero__strelka {
     left: -300px;
+    margin-bottom: 20px;
   }
 }
