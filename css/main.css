@@ -527,7 +527,7 @@ body {
   height: auto;
   background-image: url(../img/hero-bi.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding: 153px 0;
 }
 
