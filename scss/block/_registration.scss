@@ -1,0 +1,140 @@
+.registration {
+  padding: 102px 0;
+  background: #495567;
+  background-image: url(../img/registration-img.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 280px) calc(50% + 150px);
+}
+
+.registration__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.registration__title {
+  margin: 0;
+  padding: 0;
+  max-width: 415px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+
+.registration__box {
+  width: 359px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registration__appstore {
+  width: 159px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #E5ECF4;
+  border-radius: 4px;
+}
+
+.registration__googleplay {
+  width: 182px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #E5ECF4;
+   border-radius: 4px;
+}
+
+.registration__link {
+  text-decoration: none;
+}
+
+.registration__span {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.446429px;
+  color: #495567;
+}
+
+.registration__text {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.892857px;
+  color: #495567;
+}
+
+@media only screen and(max-width: 820px) {
+  .registration {
+    padding: 62px 0;
+    background-position: calc(50%) calc(50% + 150px);
+  }
+
+  .registration__inner {
+    display: block;
+    text-align: center;
+  }
+
+  .registration__title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .registration__box {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and(max-width: 410px) {
+  .registration {
+    background-position: calc(50% - 200px) calc(50% + 150px);
+  }
+
+  .registration__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  
+  .registration__box {
+    width: 256px;
+  }
+
+  .registration__appstore {
+    width: 113px;
+    height: 40px;
+  }
+
+  .registration__googleplay {
+    width: 130px;
+    height: 40px;
+  }
+
+  .registration__img {
+    width: 17px;
+    height: 20px;
+  }
+
+  .registration__span {
+    font-size: 9px;
+  }
+
+  .registration__text {
+    font-size: 16px;
+    padding-bottom: 6px;
+  }
+}
