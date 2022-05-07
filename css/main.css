@@ -772,5 +772,120 @@ body {
   }
   .list__title {
     margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.convenience {
+  margin-top: 200px;
+}
+
+.convenience__list {
+  margin: 0;
+  padding: 0;
+}
+
+.convenience__item-rith {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.convenience__item-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.convenience__box {
+  max-width: 445px;
+}
+
+.convenience__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.convenience__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.convenience__img {
+  background-image: url(../img/right.png);
+  background-repeat: no-repeat;
+  background-position: calc(50%) 0;
+}
+
+@media only screen and (max-width: 945px) {
+  .convenience {
+    margin-top: 145px;
+  }
+  .convenience__item-rith {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+  }
+  .convenience__title {
+    padding-top: 56px;
+    margin-bottom: 40px;
+  }
+  .convenience__item-left {
+    display: block;
+    text-align: center;
+  }
+  .convenience__box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .convenience {
+    margin-top: 120px;
+  }
+  .convenience__item-left {
+    margin-bottom: 120px;
+  }
+  .convenience__item-rith {
+    margin-bottom: 120px;
+  }
+  .convenience__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .convenience__img {
+    max-width: 311px;
+    max-height: 311px;
   }
 }
